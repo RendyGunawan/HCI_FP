@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/boxicons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Fit</title>
+  </head>
+  <body data-bs-spy="scroll" data-bs-target=".navbar">
+    
+   <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white">
+      <div class="container">
+         <a class="navbar-brand logo-text" href="#">Fit</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+
+            <li class="nav-item">
+               <a class="nav-link" href="#home">Home</a>
+             </li>
+             <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#team">Program</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+           </ul>
+         </div>
+       </div>
+     </nav>
+ 
+    <section id="home">
+       <div class="container text-center">
+          <div class="row justify-content-center">
+             <div class="col-md-10">
+                <h1 class="text-white display-4">BE FIT, BE HEALTHIER</h1>
+                <p class="text-white">We can be healthier by changing our lifestyle. We can control our food, sleeptime, and exercise everyday.</p>
+                <a href="#contact" class="btn btn-brand">Sign Up</a>
+             </div>
+          </div>
+       </div>
+    </section>
+ 
+    <section id="services">
+       <div class="container">
+          <div class="row">
+             <div class="col-12 section-intro">
+                <h1>Our Services</h1>
+                <div class="hline"></div>
+             </div>
+          </div>
+          <div class="row">
+             <div class="col-lg-4 col-sm-6 p-4">
+                <div class="icon-box">
+                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAIFJREFUSEvtlVEOgCAMQ9eTqTfHk9WQCJlkBKLODzP+IIWytwYgzgPO50sYDAl3EZFk2Q3A1M1ofmZAMonIkpHMlN9qznkCsFW8uktlw0MD0T279MDVoFPuMIY6aRbWWoG7Qb6JK6KvDN6I6Q5gNWNqRTavxVMxnfU7wvjRhtTcER0dCKoZb69GYQAAAABJRU5ErkJggg=="/>
+                </div>
+                <h4 class="title-sm mt-4">Exercise</h4>
+                <p>We give your the right exerices so you can achieve your ideal body mass faster.</p>
+             </div>
+             <div class="col-lg-4 col-sm-6 p-4">
+                <div class="icon-box">
+                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAVxJREFUSEu9leFRwlAQhL+tQKlEqUCpQKxArUCtQKxAqUCtQK1ArEA6EStY5zJ5mSSQR8iI94e54b3bvXe7F7Hn0J7rsxHAtgNYUvH/tjxHsgtgBRwAI0kr29l8CMAbcAbcS5rZzuZDAI6Br/LiuPztzCUtu0A6h2x7BtwB75Km2/IhAIfAN7CSNLKdzXcG6KOetro2gfyfD2wvgJM/Mt5C0qTwUiqY2v0jgMqkdYDUwTgnuxwB20nen5JO2x0kM91KehzSie0b4CFJuw1wCTwBS0nJXDvh2A7DHQFXkp4bAKUs086pDvRFqLH/kRSeKaIhU9upiwCa9J1F+fYfQBRukFvzge1o7SIcDMwkzbcMNlbKdVn8RVKQrKJrXceQ41JE50xqbx7n5pJiyI3ILbsp8Fq8Y/nhaV+ueedcUqhwLbKroq/5ugisDXkDwz7rozLVzh30lWju3N636S+Fib4ZpwMFewAAAABJRU5ErkJggg=="/>
+                </div>
+                <h4 class="title-sm mt-4">Food</h4>
+                <p>We help you to choose the right food for you.</p>
+             </div>
+             <div class="col-lg-4 col-sm-6 p-4">
+                <div class="icon-box">
+                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAe9JREFUSEu1lYFNG0EQRf+vILgCQgVABYQKEioAKkhSQUIFgQ5CBdBBoAKgA6gg7mDQW82e1nt32EZipZPtvdn9M//PH1sfvPzB9+tdABERku4kPfLYvp5LdAQQETuS/uWBY9vL/nACtNuAndt+7mNXAJrLDzKQDOdAvkgi7oekXUkkcmIbsGENAN3lTxmxnzRMghCT5y4lnSbIXlt1CwDykSQuJzsWeyOQiCDbB97bvkigW0lfc++4ltACIBxrUTPI7CoIl5WDnQaIfJixaPAp9fhLbAvAS7ikxCJWR9u97VoZ775J+p0V/rR9GRHo8UfSlW2+rwBUiuC7CBURiAxFhba+oxLkRlIBjwgSoAOHZNoKKAmhSjYJUKsaQGdadml7kRX/R2x+9xVQMtkUThMAoO+Srm2fvcf1vQ+q0EWHiKDP6RbWoW0o22r1AJWmW9snWQVC/ko/4NYCsonjVyhqDtVWmxKbMJJg9tAtax0/NYtqxpgJkJpx3W8pWuv4yWkaEZUqLm9p+Zyzh4YggTcdP6KoptY5eHKItWV08UMXzgI0etQhxhazBo+MRvJbjl/7hxMRcI/tmTEsaINCPl+SKtyL4CPHrwVoqgEI082tyXGyEUDHNwLzIDgPA/Keval/v60BtrJxO023Pbhp/CuGpwgoKQPhzgAAAABJRU5ErkJggg=="/>
+                </div>
+                <h4 class="title-sm mt-4">Consult</h4>
+                <p>You can consult with student in health major and it is free.</p>
+             </div>
+             <div class="col-lg-4 col-sm-6 p-4">
+                <div class="icon-box">
+                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAALdJREFUSEvtVdsNwjAQsydgBMomjAKT0VE6SrsBGxwqUhBcU1l3beCH/lUXnx+JZKLxx8b78UFgZmcANwBdkngEcCU5FLwnmA8ck8sLbCR5WiOweUAyFZ2ZLfDewXcJiiIVWXEcdvAneD6Y93xrGar8Ff63BN5R9F9GFF0YfqYqfyVAOmhOoBSquXSgFqi5JFAR+fnul5whuAM4RJW78xPJVyPWKrPf0GoTgMtqZW5UXoWnqjEi5AH6a94ZibpXtwAAAABJRU5ErkJggg=="/>
+                </div>
+                <h4 class="title-sm mt-4">BMI Calculator</h4>
+                <p>To count our body mass wheter it is in good amount or bad amount</p>
+             </div>
+          </div>
+       </div>
+    </section>
+
+    <section id="team" class="row g-0 py-0 text-center">
+       <div class="col-lg-3 col-sm-6 team-member">
+          <div class="team-member-img">
+             <img src="img/underweight.png" alt="">
+             <div class="social-icons">
+                <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAIFJREFUSEvtlVEOgCAMQ9eTqTfHk9WQCJlkBKLODzP+IIWytwYgzgPO50sYDAl3EZFk2Q3A1M1ofmZAMonIkpHMlN9qznkCsFW8uktlw0MD0T279MDVoFPuMIY6aRbWWoG7Qb6JK6KvDN6I6Q5gNWNqRTavxVMxnfU7wvjRhtTcER0dCKoZb69GYQAAAABJRU5ErkJggg=="/></a>
+                <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAVxJREFUSEu9leFRwlAQhL+tQKlEqUCpQKxArUCtQKxAqUCtQK1ArEA6EStY5zJ5mSSQR8iI94e54b3bvXe7F7Hn0J7rsxHAtgNYUvH/tjxHsgtgBRwAI0kr29l8CMAbcAbcS5rZzuZDAI6Br/LiuPztzCUtu0A6h2x7BtwB75Km2/IhAIfAN7CSNLKdzXcG6KOetro2gfyfD2wvgJM/Mt5C0qTwUiqY2v0jgMqkdYDUwTgnuxwB20nen5JO2x0kM91KehzSie0b4CFJuw1wCTwBS0nJXDvh2A7DHQFXkp4bAKUs086pDvRFqLH/kRSeKaIhU9upiwCa9J1F+fYfQBRukFvzge1o7SIcDMwkzbcMNlbKdVn8RVKQrKJrXceQ41JE50xqbx7n5pJiyI3ILbsp8Fq8Y/nhaV+ueedcUqhwLbKroq/5ugisDXkDwz7rozLVzh30lWju3N636S+Fib4ZpwMFewAAAABJRU5ErkJggg=="/></a>
+                <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAe9JREFUSEu1lYFNG0EQRf+vILgCQgVABYQKEioAKkhSQUIFgQ5CBdBBoAKgA6gg7mDQW82e1nt32EZipZPtvdn9M//PH1sfvPzB9+tdABERku4kPfLYvp5LdAQQETuS/uWBY9vL/nACtNuAndt+7mNXAJrLDzKQDOdAvkgi7oekXUkkcmIbsGENAN3lTxmxnzRMghCT5y4lnSbIXlt1CwDykSQuJzsWeyOQiCDbB97bvkigW0lfc++4ltACIBxrUTPI7CoIl5WDnQaIfJixaPAp9fhLbAvAS7ikxCJWR9u97VoZ775J+p0V/rR9GRHo8UfSlW2+rwBUiuC7CBURiAxFhba+oxLkRlIBjwgSoAOHZNoKKAmhSjYJUKsaQGdadml7kRX/R2x+9xVQMtkUThMAoO+Srm2fvcf1vQ+q0EWHiKDP6RbWoW0o22r1AJWmW9snWQVC/ko/4NYCsonjVyhqDtVWmxKbMJJg9tAtax0/NYtqxpgJkJpx3W8pWuv4yWkaEZUqLm9p+Zyzh4YggTcdP6KoptY5eHKItWV08UMXzgI0etQhxhazBo+MRvJbjl/7hxMRcI/tmTEsaINCPl+SKtyL4CPHrwVoqgEI082tyXGyEUDHNwLzIDgPA/Keval/v60BtrJxO023Pbhp/CuGpwgoKQPhzgAAAABJRU5ErkJggg=="/></a>
+             </div>
+          </div>
+          <div class="p-4">
+             <h5 class="title-sm mt-3 mb-0 text-white">Lets Increase</h5>
+             <small class="text-white">For Underweight Person</small>
+             <div class="hline"></div>
+             <p class="text-white">Increase your eat portion and you can have a better body mass</p>
+          </div>
+       </div>
+       <div class="col-lg-3 col-sm-6 team-member even">
+          <div class="team-member-img">
+             <img src="img/ideal.png" alt="">
+             <div class="social-icons">
+               <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAIFJREFUSEvtlVEOgCAMQ9eTqTfHk9WQCJlkBKLODzP+IIWytwYgzgPO50sYDAl3EZFk2Q3A1M1ofmZAMonIkpHMlN9qznkCsFW8uktlw0MD0T279MDVoFPuMIY6aRbWWoG7Qb6JK6KvDN6I6Q5gNWNqRTavxVMxnfU7wvjRhtTcER0dCKoZb69GYQAAAABJRU5ErkJggg=="/></a>
+               <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAVxJREFUSEu9leFRwlAQhL+tQKlEqUCpQKxArUCtQKxAqUCtQK1ArEA6EStY5zJ5mSSQR8iI94e54b3bvXe7F7Hn0J7rsxHAtgNYUvH/tjxHsgtgBRwAI0kr29l8CMAbcAbcS5rZzuZDAI6Br/LiuPztzCUtu0A6h2x7BtwB75Km2/IhAIfAN7CSNLKdzXcG6KOetro2gfyfD2wvgJM/Mt5C0qTwUiqY2v0jgMqkdYDUwTgnuxwB20nen5JO2x0kM91KehzSie0b4CFJuw1wCTwBS0nJXDvh2A7DHQFXkp4bAKUs086pDvRFqLH/kRSeKaIhU9upiwCa9J1F+fYfQBRukFvzge1o7SIcDMwkzbcMNlbKdVn8RVKQrKJrXceQ41JE50xqbx7n5pJiyI3ILbsp8Fq8Y/nhaV+ueedcUqhwLbKroq/5ugisDXkDwz7rozLVzh30lWju3N636S+Fib4ZpwMFewAAAABJRU5ErkJggg=="/></a>
+               <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAe9JREFUSEu1lYFNG0EQRf+vILgCQgVABYQKEioAKkhSQUIFgQ5CBdBBoAKgA6gg7mDQW82e1nt32EZipZPtvdn9M//PH1sfvPzB9+tdABERku4kPfLYvp5LdAQQETuS/uWBY9vL/nACtNuAndt+7mNXAJrLDzKQDOdAvkgi7oekXUkkcmIbsGENAN3lTxmxnzRMghCT5y4lnSbIXlt1CwDykSQuJzsWeyOQiCDbB97bvkigW0lfc++4ltACIBxrUTPI7CoIl5WDnQaIfJixaPAp9fhLbAvAS7ikxCJWR9u97VoZ775J+p0V/rR9GRHo8UfSlW2+rwBUiuC7CBURiAxFhba+oxLkRlIBjwgSoAOHZNoKKAmhSjYJUKsaQGdadml7kRX/R2x+9xVQMtkUThMAoO+Srm2fvcf1vQ+q0EWHiKDP6RbWoW0o22r1AJWmW9snWQVC/ko/4NYCsonjVyhqDtVWmxKbMJJg9tAtax0/NYtqxpgJkJpx3W8pWuv4yWkaEZUqLm9p+Zyzh4YggTcdP6KoptY5eHKItWV08UMXzgI0etQhxhazBo+MRvJbjl/7hxMRcI/tmTEsaINCPl+SKtyL4CPHrwVoqgEI082tyXGyEUDHNwLzIDgPA/Keval/v60BtrJxO023Pbhp/CuGpwgoKQPhzgAAAABJRU5ErkJggg=="/></a>
+             </div>
+          </div>
+          <div class="p-4">
+             <h5 class="title-sm mt-3 mb-0 text-white">Lets Maintain</h5>
+             <small class="text-white">For Ideal Person</small>
+             <div class="hline"></div>
+             <p class="text-white">Always keep ur body in the best condition.</p>
+          </div>
+       </div>
+       <div class="col-lg-3 col-sm-6 team-member">
+          <div class="team-member-img">
+             <img src="img/overweight.png" alt="">
+             <div class="social-icons">
+               <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAIFJREFUSEvtlVEOgCAMQ9eTqTfHk9WQCJlkBKLODzP+IIWytwYgzgPO50sYDAl3EZFk2Q3A1M1ofmZAMonIkpHMlN9qznkCsFW8uktlw0MD0T279MDVoFPuMIY6aRbWWoG7Qb6JK6KvDN6I6Q5gNWNqRTavxVMxnfU7wvjRhtTcER0dCKoZb69GYQAAAABJRU5ErkJggg=="/></a>
+               <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAVxJREFUSEu9leFRwlAQhL+tQKlEqUCpQKxArUCtQKxAqUCtQK1ArEA6EStY5zJ5mSSQR8iI94e54b3bvXe7F7Hn0J7rsxHAtgNYUvH/tjxHsgtgBRwAI0kr29l8CMAbcAbcS5rZzuZDAI6Br/LiuPztzCUtu0A6h2x7BtwB75Km2/IhAIfAN7CSNLKdzXcG6KOetro2gfyfD2wvgJM/Mt5C0qTwUiqY2v0jgMqkdYDUwTgnuxwB20nen5JO2x0kM91KehzSie0b4CFJuw1wCTwBS0nJXDvh2A7DHQFXkp4bAKUs086pDvRFqLH/kRSeKaIhU9upiwCa9J1F+fYfQBRukFvzge1o7SIcDMwkzbcMNlbKdVn8RVKQrKJrXceQ41JE50xqbx7n5pJiyI3ILbsp8Fq8Y/nhaV+ueedcUqhwLbKroq/5ugisDXkDwz7rozLVzh30lWju3N636S+Fib4ZpwMFewAAAABJRU5ErkJggg=="/></a>
+               <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAe9JREFUSEu1lYFNG0EQRf+vILgCQgVABYQKEioAKkhSQUIFgQ5CBdBBoAKgA6gg7mDQW82e1nt32EZipZPtvdn9M//PH1sfvPzB9+tdABERku4kPfLYvp5LdAQQETuS/uWBY9vL/nACtNuAndt+7mNXAJrLDzKQDOdAvkgi7oekXUkkcmIbsGENAN3lTxmxnzRMghCT5y4lnSbIXlt1CwDykSQuJzsWeyOQiCDbB97bvkigW0lfc++4ltACIBxrUTPI7CoIl5WDnQaIfJixaPAp9fhLbAvAS7ikxCJWR9u97VoZ775J+p0V/rR9GRHo8UfSlW2+rwBUiuC7CBURiAxFhba+oxLkRlIBjwgSoAOHZNoKKAmhSjYJUKsaQGdadml7kRX/R2x+9xVQMtkUThMAoO+Srm2fvcf1vQ+q0EWHiKDP6RbWoW0o22r1AJWmW9snWQVC/ko/4NYCsonjVyhqDtVWmxKbMJJg9tAtax0/NYtqxpgJkJpx3W8pWuv4yWkaEZUqLm9p+Zyzh4YggTcdP6KoptY5eHKItWV08UMXzgI0etQhxhazBo+MRvJbjl/7hxMRcI/tmTEsaINCPl+SKtyL4CPHrwVoqgEI082tyXGyEUDHNwLzIDgPA/Keval/v60BtrJxO023Pbhp/CuGpwgoKQPhzgAAAABJRU5ErkJggg=="/></a>
+             </div>
+          </div>
+          <div class="p-4">
+             <h5 class="title-sm mt-3 mb-0 text-white">Lets Decrease</h5>
+             <small class="text-white">For Overweight</small>
+             <div class="hline"></div>
+             <p class="text-white">Just be confident, you can be a more beautiful Person</p>
+          </div>
+       </div>
+    </section>
+
+   <section id="contact" class="bg-light">
+      <div class="container">
+         <div class="row align-items-center">
+            <div class="col-lg-4">
+               <h1>Contact Us</h1>
+               <img src="img/salad.jpg" alt="">
+            </div>
+            <div class="col-lg-6 offset-lg-1">
+               <form>
+                  <div class="mb-3">
+                    <small>Name</small>
+                    <input type="text" class="form-control" id="exampleInputName1" aria-describedby="emailHelp">
+                  </div>
+                  <div class="mb-3">
+                     <small>Email</small>
+                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                   </div>
+                   <div class="mb-3">
+                     <small>Name</small>
+                     <textarea name="" id="" cols="30" rows="4" class="form-control"></textarea>
+                   </div>
+                  <button type="submit" class="btn btn-brand">Submit</button>
+                </form>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <section id="cta" class="py-5">
+      <div class="container py-4">
+         <div class="row justify-content-center">
+            <div class="col-md-auto">
+               <h3 class="text-white">Let's be healthier</h3>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <footer>
+      <div class="footer-top">
+         <div class="container">
+            <div class="row gy-5">
+               <div class="col-md-auto">
+                  <h5 class="title-sm">Contact</h5>
+                  <div class="footer-links">
+                     <p class="mb">Jl. Hang Lekir I No.6, RW.3, Gelora, Kecamatan Tanah Abang, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10270</p>
+                     <p class="mb-">+6221-555-6666</p>
+                     <p class="mb">abcde@binus.com</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="footer-bottom">
+         <div class="container">
+            <div class="row justify-content-between gy-3">
+               <div class="col-md-6">
+               </div>
+            </div>
+         </div>
+      </div>
+   </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    
+  </body>
+</html>
